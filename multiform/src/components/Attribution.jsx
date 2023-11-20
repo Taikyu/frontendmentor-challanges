@@ -2,13 +2,25 @@ import React from "react";
 
 function Attribution() {
   return (
-    <div class="attribution">
-      Challenge by{" "}
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+    <strong class="hidden bg-white w-fit mx-auto rounded-b-lg pb-2 px-4 text-coolGray cursor-default  shadow-x-lg text-center sm:block">
+      Challenge by {""}
+      <a
+        className="hover:text-marineBlue"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
         Frontend Mentor
       </a>
-      . Coded by <a href="#">Your Name Here</a>.
-    </div>
+      . Coded by{" "}
+      <a
+        className="hover:text-marineBlue"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        Taikyu
+      </a>
+      .
+    </strong>
   );
 }
 

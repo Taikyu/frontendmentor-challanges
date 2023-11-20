@@ -3,7 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      sm: "375px",
+      // sm: "375px",
+      sm: "520px",
     },
     fontWeight: {
       semiBold: "600",
@@ -11,6 +12,7 @@ export default {
     extend: {
       backgroundImage: {
         sideBackground: "url('./src/assets/images/bg-sidebar-desktop.svg')",
+        mobileBackground: "url('./src/assets/images/bg-sidebar-mobile.svg')",
       },
       colors: {
         purplishBlue: "hsl(243, 100%, 62%)",

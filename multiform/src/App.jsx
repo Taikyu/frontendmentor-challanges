@@ -7,35 +7,24 @@ import Main from "./components/Main.jsx";
 
 function App() {
   return (
-    <Card className=" flex w-[50rem] h-[32rem] mx-auto mt-16 space-x-24 bg-white  shadow-lg">
-      <SideBar />
-      <div className="w-[25rem] h-[30rem] mx-auto py-6 relative">
-        <Main />
-        <div className="flex justify-between w-full absolute bottom-4">
-          <button className="text-coolGray px-4 py-2 rounded-lg hover:text-marineBlue cursor-pointer text-sm font-semiBold">
-            Go Back
-          </button>
-          <button className="text-magnolia px-4 py-2 rounded-lg bg-marineBlue hover:bg-purplishBlue cursor-pointer text-sm font-semiBold">
-            Next Step
-          </button>
+    <>
+      <Card className=" flex mx-auto mt-16 space-x-24 bg-magnolia shadow-none sm:w-[50rem] sm:h-[32rem] sm:bg-white sm:shadow-lg">
+        <SideBar />
+        <div className="sm:w-[25rem] sm:h-[30rem] mx-auto py-6 relative">
+          <Main />
+          <div className="fixed left-0 bottom-0 bg-white px-4 py-2 w-full flex justify-between font-semiBold text-base sm:absolute sm:bottom-4 sm:p-0 sm:text-sm ">
+            <button className="text-coolGray px-4 py-2 rounded-lg hover:text-marineBlue cursor-pointer  ">
+              Go Back
+            </button>
+            <button className="text-magnolia px-4 py-2 rounded-lg bg-marineBlue hover:bg-purplishBlue cursor-pointer ">
+              Next Step
+            </button>
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+      <Attribution />
+    </>
   );
 }
 
 export default App;
-
-// Personal info
-// Please provide your name, email address, and phone number.
-
-// Name
-//
-
-//
-// e.g. stephenking@lorem.com
-
-//
-//
-
-// Next Step
