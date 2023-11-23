@@ -2,7 +2,7 @@ import React from "react";
 
 function Attribution() {
   return (
-    <strong class="hidden bg-white w-fit mx-auto rounded-b-lg pb-2 px-4 text-coolGray cursor-default  shadow-x-lg text-center sm:block">
+    <strong className="hidden bg-white w-fit mx-auto rounded-b-lg pb-2 px-4 text-coolGray cursor-default  shadow-x-lg text-center sm:block">
       Challenge by {""}
       <a
         className="hover:text-marineBlue"
